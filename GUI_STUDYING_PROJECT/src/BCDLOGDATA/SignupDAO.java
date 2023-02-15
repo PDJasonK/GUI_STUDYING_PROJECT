@@ -1,4 +1,4 @@
-package A1111.LogData;
+package BCDLOGDATA;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

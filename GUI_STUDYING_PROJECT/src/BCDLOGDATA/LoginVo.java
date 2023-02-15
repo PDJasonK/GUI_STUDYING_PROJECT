@@ -1,4 +1,4 @@
-package A1111.LogData;
+package BCDLOGDATA;
 
 public class LoginVo {
 	   private String id;

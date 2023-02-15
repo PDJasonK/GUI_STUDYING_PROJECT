@@ -1,4 +1,4 @@
-package A1111.LogData;
+package BCDLOGDATA;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -62,7 +62,7 @@ public class LoginDAO {
 			resulty = pstmt.executeQuery();
 			if (resulty.next()) {
 				if (resulty.getString(1).contentEquals(userPassword)) {
-					return 1; // 濡쒓렇�씤 �꽦怨듭떆 1 諛섑솚
+					return 1; // 濡쒓?���씤 �꽦?�듭?�� 1 諛섑?��
 				} else {
 					return 0;
 				}
@@ -114,7 +114,7 @@ public class LoginDAO {
 	public Connection getConn() {
 		Connection con = null;
 		try {
-			Class.forName(driver); // 1. �뱶�씪�씠踰� 濡쒕뵫
+			Class.forName(driver); // 1. �뱶�씪�씠踰� 濡쒕�?
 			con = DriverManager.getConnection(url, user, pwd); // 2. �뱶�씪�씠踰� �뿰寃�
 		} catch (Exception e) {
 			e.printStackTrace();

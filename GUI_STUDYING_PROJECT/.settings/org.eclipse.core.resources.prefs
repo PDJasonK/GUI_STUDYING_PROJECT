@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
-encoding//src/A1111/LogData/LoginDAO.java=UTF-8
 encoding//src/A1111/LogMain/LoginChecker.java=UTF-8
 encoding//src/A1111/LogMain/LoginMain.java=UTF-8
 encoding//src/A1111/LogMain/Signup.java=UTF-8
@@ -28,6 +27,7 @@ encoding//src/AdminVocab/VocabToeic3MainOut.java=UTF-8
 encoding//src/AdminVocabQuiz/VocabToeic1Send.java=UTF-8
 encoding//src/AdminVocabQuiz/VocabToeic2Send.java=UTF-8
 encoding//src/AdminVocabQuiz/VocabToeic3Send.java=UTF-8
+encoding//src/BCDLOGDATA/LoginDAO.java=UTF-8
 encoding//src/Backupupupup/LoginDAO.java=UTF-8
 encoding//src/Backupupupup/LoginMain.java=UTF-8
 encoding//src/CheckUser/CheckVocab01.java=UTF-8
