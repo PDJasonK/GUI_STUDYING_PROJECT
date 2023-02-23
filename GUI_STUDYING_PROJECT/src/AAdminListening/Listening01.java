@@ -23,7 +23,7 @@ import javax.swing.JTextArea;
 import AdminOptionPage.AdminOptionPage;
 import AdminReading.AdminReading2;
 import UserPage.HomeScreen;
-
+	
 public class Listening01 extends WindowAdapter implements ActionListener {
 	private JFrame f;
 	private JPanel p;
@@ -48,9 +48,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 		f.setLayout(null);
 		p = new JPanel();
 		p.setLayout(null);
-
-		// -----
-
+ 
 		title = new JLabel("[리스닝 질문] First Listening");
 		title.setBounds(30, -30, 800, 90);
 
@@ -70,24 +68,12 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 
 		PContent1 = new JLabel("[리스닝 문제] Conprehensive", JLabel.LEFT);
 		PContent1.setBounds(30, 90, 500, 500);
-		/*
-		 * PContent2 = new JLabel("[Write Second]  몢 踰덉㎏ 臾몃떒  옉 꽦 ", JLabel.LEFT);
-		 * PContent2.setBounds(30, 380, 500, 500); PContent3 = new
-		 * JLabel("[Write Third]  꽭踰덉㎏ 臾몃떒  옉 꽦", JLabel.LEFT); PContent3.setBounds(30,
-		 * 520, 500, 500);
-		 */
+	 
 		inserting01 = new JTextArea();
 		inserting01.setBounds(30, 350, 750, 200);
 
 		inserting02 = new JTextArea();
-		inserting02.setBounds(30, 600, 750, 200);
-
-		// yoyo5 = new JTextArea();
-		// yoyo5.setBounds(30, 640, 8000, 90);
-
-		// yoyo6 = new JTextArea();
-		// yoyo6.setBounds(30, 780, 8000, 90);
-
+		inserting02.setBounds(30, 600, 750, 200); 
 		Submit = new JButton("SUBMIT");
 		Submit.setLayout(null);
 		Submit.setBounds(400, 890, 100, 60);
@@ -100,15 +86,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 		lbtn1.setLayout(null);
 		lbtn1.setBounds(850, 50, 100, 60);
 		lbtn1.addActionListener(this);
-
-		/*
-		 * lbtn1.addActionListener(new ActionListener() {
-		 * 
-		 * @Override public void actionPerformed(ActionEvent e) { // TODO Auto-generated
-		 * method stub new ListeningInpuut(); }
-		 * 
-		 * });
-		 */
+ 
 		btn1 = new JButton("NEXT");
 		btn1.setLayout(null);
 		btn1.setBounds(850, 890, 100, 60);
@@ -133,8 +111,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 
 		startframe();
 		method();
-
-//      Submit.setBackground(Color.gray);
+ 
 		Submit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(inserting01.getSelectedText() + inserting02.getSelectedText());
@@ -168,17 +145,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 		});
 
 	}
-
-	/*
-	 * @Override public void actionPerformed(ActionEvent e) { HomeScreen hs = new
-	 * HomeScreen(); signup.setVisible(false);
-	 * 
-	 * hs.startFrame(); }
-	 * 
-	 * });
-	 * 
-	 * }
-	 */
+ 
 	public void startframe() {
 
 		f.setSize(1000, 1200);
@@ -188,9 +155,9 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 		f.add(PContent1);
 
 		f.add(Submit);
-		f.add(btn1);
+		//f.add(btn1);
 		f.add(btn2);
-		f.add(btn0);
+		//f.add(btn0);
 		f.add(lbtn1);
 		f.add(review2);
 		f.add(title1);
@@ -209,7 +176,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 		btn1.addActionListener(this);
 		btn2.addActionListener(this);
 
-		// p.add(Practice);
+	 
 
 		f.setVisible(true);
 		p.setVisible(true);
@@ -258,7 +225,7 @@ public class Listening01 extends WindowAdapter implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		String filepath = "C:\\Users\\Administrator\\Desktop\\img\\voice.wav";
 		if (e.getSource() == lbtn1) {
-			// new ListeningInpuut();
+		 
 			try {
 				File MusicPath = new File(filepath);
 

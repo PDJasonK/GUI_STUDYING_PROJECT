@@ -22,9 +22,7 @@ import UserVocab.UserVocab1;
 public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 	private JFrame f;
 	private JPanel p;
-	/*
-	 * private JLabel PContent1; private JLabel PContent2; private JLabel PContent3;
-	 */
+ 
 
 	private JLabel title;
 	private Statement stmt;
@@ -196,37 +194,7 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 		answer.setLayout(null);
 		answer.setBounds(15, 815, 800, 60);
 		answer.setEditable(false);
-
-		// -------------------
-		/*
-		 * PContent1 = new JLabel("泥ル쾲吏� 臾몃떒�쓽 �빐�꽍臾�", JLabel.LEFT);
-		 * PContent1.setBounds(15, 240, 500, 500); PContent2 = new
-		 * JLabel("�몢踰덉㎏ 臾몃떒�쓽 �빐�꽍臾�", JLabel.LEFT); PContent2.setBounds(15, 380, 500,
-		 * 500); PContent3 = new JLabel("�꽭踰덉㎏ 泥ル쾲吏� 臾몃떒�쓽 �빐�꽍臾� ", JLabel.LEFT);
-		 * PContent3.setBounds(15, 520, 500, 500);
-		 */
-		/*
-		 * yoyo4 = new JTextArea(); yoyo4.setBounds(15, 500, 800, 90);
-		 * yoyo4.addFocusListener(new FocusAdapter() { public void
-		 * focusGained(FocusEvent e) { yoyo4.setBackground(Color.ORANGE); }
-		 * 
-		 * @Override public void focusLost(FocusEvent e) {
-		 * yoyo4.setBackground(Color.YELLOW); } });
-		 * 
-		 * yoyo5 = new JTextArea(); yoyo5.setBounds(15, 640, 800, 90);
-		 * yoyo5.addFocusListener(new FocusAdapter() { public void
-		 * focusGained(FocusEvent e) { yoyo5.setBackground(Color.ORANGE); }
-		 * 
-		 * @Override public void focusLost(FocusEvent e) {
-		 * yoyo5.setBackground(Color.YELLOW); } });
-		 * 
-		 * yoyo6 = new JTextArea(); yoyo6.setBounds(15, 780, 800, 90);
-		 * yoyo6.addFocusListener(new FocusAdapter() { public void
-		 * focusGained(FocusEvent e) { yoyo6.setBackground(Color.ORANGE); }
-		 * 
-		 * @Override public void focusLost(FocusEvent e) {
-		 * yoyo6.setBackground(Color.YELLOW); } });
-		 */
+ 
 		Submit = new JButton("SUBMIT");
 		Submit.setLayout(null);
 		Submit.setBounds(400, 890, 100, 50);
@@ -273,9 +241,7 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 		startframe();
 		method();
 		method1();
-
-//		Submit.setBackground(Color.gray);
-
+ 
 		Submit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(Out1.getSelectedText() + Out2.getSelectedText() + Out3.getSelectedText());
@@ -330,24 +296,11 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 		});
 
 	}
-
-	/*
-	 * @Override public void actionPerformed(ActionEvent e) { HomeScreen hs = new
-	 * HomeScreen(); signup.setVisible(false);
-	 * 
-	 * hs.startFrame(); }
-	 * 
-	 * });
-	 * 
-	 * }
-	 */
+ 
 	public void startframe() {
 		f.setSize(1000, 1200);
 		p.add(title);
-
-		/*
-		 * p.add(PContent1); p.add(PContent2); p.add(PContent3);
-		 */
+ 
 		p.add(Submit);
 
 		p.add(Out1);
@@ -386,14 +339,11 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 		p.add(answer);
 
 		p.add(btn0);
-
-		// p.add(yoyo2);
-		// p.add(yoyo3);
-
+ 
 		p.add(btn1);
 		p.add(btn2);
 		p.add(btn3);
-		// f.add(title, "North");
+ 
 
 		f.add(p, "Center");
 
@@ -401,7 +351,7 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 		Submit.addActionListener(this);
 		btn1.addActionListener(this);
 		btn2.addActionListener(this);
-		// p.add(Practice);
+ 
 
 		f.setVisible(true);
 	}
@@ -476,18 +426,14 @@ public class QuizFromStudent01 extends WindowAdapter implements ActionListener {
 			stmt = conn.createStatement();
 
 			String sql2 = "SELECT Output1 FROM VocabQuizFinished1";
-			// String sql3 = "SELECT contentsAr FROM instruction1Read";
-			// String sql4 = "SELECT sending FROM ReadingMainGain";
-
+ 
 			ResultSet rs2 = stmt.executeQuery(sql2);
 			while (rs2.next()) {
 
 				System.out.print(rs2.getString("Output1") + "\t");
 
-				// gainer1.setText(rs2.getString("sending"));
 				answer.setText(rs2.getString("Output1"));
-				// gainer3.setText(rs2.getString("gain3"));
-
+ 
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

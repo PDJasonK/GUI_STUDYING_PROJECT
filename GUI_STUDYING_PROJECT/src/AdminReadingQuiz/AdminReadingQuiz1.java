@@ -17,7 +17,7 @@ import javax.swing.JTextArea;
 
 import AdminOptionPage.AdminOptionPage;
 import AdminReading.AdminReading2;
-import UserPage.HomeScreen;
+import Use_rPage.HomeScreen;
 
 public class AdminReadingQuiz1 extends WindowAdapter implements ActionListener {
 	private JFrame f;

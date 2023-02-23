@@ -58,12 +58,12 @@ public class LoginMain extends WindowAdapter implements ActionListener {
 
 //*------------------------------------------------------------
 	public LoginMain() {
-		// 濡쒓렇�씤 �솕硫�
+	 
 		f = new Frame("Login");
 		f.setSize(300, 150);
 		f.setBackground(Color.white);
 
-		// 濡쒓렇�씤 �꽦怨� �솕硫�
+	 
 		suf = new Frame("로그인 성공");
 		suf.setFont(new Font("Gothic", Font.BOLD, 20));
 		suf.setSize(550, 100);
@@ -74,7 +74,7 @@ public class LoginMain extends WindowAdapter implements ActionListener {
 		faf.setBackground(Color.gray);
 
 		FailText = new JTextArea("00002 ");
-//		FailText.setLayout(null);
+ 
 		FailText.setBounds(20, 50, 160, 40);
 		FailText.setVisible(true);
 		faf.add(FailText);

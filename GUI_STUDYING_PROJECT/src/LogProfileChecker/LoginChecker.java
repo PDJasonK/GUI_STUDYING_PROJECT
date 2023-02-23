@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import AdminChat.ClientGui;
-import UserPage.HomeScreen;
+import User_Page.HomeScreen;
 
 
 

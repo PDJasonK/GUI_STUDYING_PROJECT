@@ -13,10 +13,11 @@ import javax.swing.JTextArea;
 
 import AdminReading.AdminReading1;
 import AdminVocab.VocabToeic1MainOut;
-import Backupupupup.ListFrame;
-import CheckUser.CheckRead01;
-import CheckUser.CheckVocab01;
+import Query.CheckQ01;
+import QuestionBoard.ListFrame;
 import UserVocab.UserVocab1;
+import User_ContentCheck.CheckRead01;
+import User_ContentCheck.CheckVocab01;
 import VocabQuiz.VocabQuiz1;
 
 public class AdminOptionPage implements ActionListener {

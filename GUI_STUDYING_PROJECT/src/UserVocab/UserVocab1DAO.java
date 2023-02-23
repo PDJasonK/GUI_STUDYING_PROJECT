@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import Content1VocabQuiz.SubimitVo;
+import User_Content1VocabQuiz.SubimitVo;
 
 public class UserVocab1DAO   {
 	String driver = "oracle.jdbc.driver.OracleDriver";

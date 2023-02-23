@@ -30,7 +30,7 @@ import javax.swing.JButton;
 import javax.swing.JTextArea;
 
 import LogMain.Signup;
-import UserPage.HomeScreen;
+import User_Page.HomeScreen;
 
 public class LoginMain extends WindowAdapter implements ActionListener {
 	private Frame f;

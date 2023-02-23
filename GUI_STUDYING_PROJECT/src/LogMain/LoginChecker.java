@@ -14,8 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import AdminChat.ClientGui;
-import UserPage.HomeScreen;
+import User_Page.HomeScreen;
 
 
 
@@ -38,31 +37,30 @@ public class LoginChecker {
 		f.setLayout(null);
 		f.setSize(1000, 1000);
 		f.setVisible(true);
-
-		// p = new JPanel();
+ 
 
 		JTextArea txtA = new JTextArea("아이디");
 		txtA.setLayout(null);
-		// txtA = new JTextArea();
+	 
 		txtA.setEditable(false);
 		txtA.setBounds(60, 60, 100, 15);
 		txtA.setVisible(true);
 
 	
 		Outa1.setLayout(null);
-		// txtA = new JTextArea();
+ 
 		Outa1.setEditable(true);
 		Outa1.setBounds(190, 60, 200, 15);
 		Outa1.setVisible(true);
 
 		JTextArea txtB = new JTextArea("비밀번호 : ");
-		// txtB = new JTextArea();
+ 
 		txtB.setEditable(false);
 		txtB.setBounds(60, 90, 100, 15);
 		txtB.setVisible(true);
 
 		Outa2 = new JTextArea();
-		// txtB = new JTextArea();
+	 
 		Outa2.setEditable(true);
 		Outa2.setBounds(190, 90, 200, 15);
 		Outa2.setVisible(true);
@@ -97,22 +95,7 @@ public class LoginChecker {
 		Outa5.setBounds(190, 180, 200, 15);
 		Outa5.setVisible(true);
 		
-		btn3 = new JButton("알림 및 채팅 확인");
-		btn3.setBounds(650, 650, 300, 100);
-		btn3.setVisible(true);
-		btn3.setBackground(Color.white);
-		btn3.setFont(new Font("Gothic", Font.BOLD, 20));
-		btn3.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				ClientGui CG = new ClientGui();
-				
-
-			}
-			
-
-		});
+	 
 
 		btn1 = new JButton("메인화면으로");
 		btn1.setBounds(650, 50, 300, 200);
@@ -184,11 +167,7 @@ public class LoginChecker {
 
 			ResultSet rs2 = stmt.executeQuery(sql2);
 			while (rs2.next()) {
-
-//				System.out.print(rs2.getString("id") + "\t");
-//				System.out.print(rs2.getString("pwd") + "\t");
-//				System.out.print(rs2.getString("resid"));
-
+ 
 				Outa1.setText(rs2.getString("id"));
 				Outa2.setText(rs2.getString("pwd"));
 				Outa3.setText(rs2.getString("resid"));

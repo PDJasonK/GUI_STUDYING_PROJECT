@@ -17,9 +17,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import UserPage.HomeScreen;
-import UserToeicReadingContent.ReadingMain2DAO;
-import UserToeicReadingContent.SubmitMain;
+import User_Page.HomeScreen;
+import User_ToeicReadingContent.ReadingMain2DAO;
+import User_ToeicReadingContent.SubmitMain;
 
 public class ReadingResult extends WindowAdapter implements ActionListener {
 	private JFrame f;

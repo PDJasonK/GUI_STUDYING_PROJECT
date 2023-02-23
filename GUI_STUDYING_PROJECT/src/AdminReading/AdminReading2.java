@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import AdminOptionPage.AdminOptionPage;
-import UserPage.HomeScreen;
+import Use_rPage.HomeScreen;
 
 //ReadingMainGain3
 
@@ -114,8 +114,7 @@ public class AdminReading2 extends WindowAdapter implements ActionListener {
 
 		startframe();
 		method();
-
-//		Submit.setBackground(Color.gray);
+ 
 		Submit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(yoyo4.getSelectedText());

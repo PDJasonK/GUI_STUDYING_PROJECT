@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import LogData.DataBase;
+
 public class ManagementDAO {
 
    private Connection conn = null;

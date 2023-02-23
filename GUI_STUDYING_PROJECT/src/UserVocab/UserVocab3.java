@@ -15,8 +15,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import Content1VocabQuiz.SubmitDAO;
 import UserPage.HomeScreen;
+import User_Content1VocabQuiz.SubmitDAO;
 import VocabQuiz.VocabQuiz1;
 import VocabQuiz.VocabQuiz3;
 

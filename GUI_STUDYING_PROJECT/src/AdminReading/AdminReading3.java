@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import AdminOptionPage.AdminOptionPage;
-import UserPage.HomeScreen;
+import Use_rPage.HomeScreen;
 
 public class AdminReading3 extends WindowAdapter implements ActionListener {
 	private JFrame f;

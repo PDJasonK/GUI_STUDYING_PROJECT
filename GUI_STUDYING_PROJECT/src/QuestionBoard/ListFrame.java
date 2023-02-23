@@ -80,24 +80,13 @@ public class ListFrame extends JFrame {
 		JPanel pan = new JPanel();
 		pan.setLayout(new GridLayout(1, 1, 1, 1));
 		logout = new JButton("로그아웃");
-//		point = new JButton("적립하기");
+ 
 		pan.add(logout);
-		// pan.add(point);
+ 
 		panel.add(pan, BorderLayout.SOUTH);
 
  
-/*
-		point.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "적립되었습니다.");
-				new Point();
-				dispose();
-			}
-
-		});
-*/
+ 
 		setVisible(true);
 
 	}

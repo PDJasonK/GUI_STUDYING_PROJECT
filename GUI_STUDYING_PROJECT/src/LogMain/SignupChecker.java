@@ -94,20 +94,7 @@ public class SignupChecker {
 		txtF1.setBounds(190, 210, 200, 15);
 		txtF1.setVisible(true);
 
-		btn3 = new JButton("알림 및 채팅 확인");
-		btn3.setBounds(650, 650, 300, 100);
-		btn3.setVisible(true);
-		btn3.setBackground(Color.white);
-		btn3.setFont(new Font("Gothic", Font.BOLD, 20));
-		btn3.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				ClientGui CG = new ClientGui();
-
-			}
-
-		});
+ 
 
 		btn1 = new JButton("메인화면으로");
 		btn1.setBounds(650, 50, 300, 200);

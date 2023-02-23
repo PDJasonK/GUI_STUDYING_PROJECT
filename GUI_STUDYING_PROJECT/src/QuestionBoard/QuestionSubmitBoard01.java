@@ -20,8 +20,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import AdminOptionPage.AdminOptionPage;
-import AdminOptionPage.CheckQ01;
-import UserPage.HomeScreen;
+import Query.CheckQ01;
+import User_Page.HomeScreen;
 import VocabQuiz.VocabQuiz2;
 
 public class QuestionSubmitBoard01 extends WindowAdapter implements ActionListener {

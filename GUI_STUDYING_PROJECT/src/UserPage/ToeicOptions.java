@@ -8,8 +8,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 import AAdminListening.Listening01;
-import UserToeicReadingContent.ReadingMain1;
 import UserVocab.UserVocab1;
+import User_ToeicReadingContent.ReadingMain1;
 
 public class ToeicOptions {
 	private JButton tbtn1, tbtn2, tbtn3, /* tbtn4 */ tbtn5, tbtn0;

@@ -50,10 +50,7 @@ public class VocabToeic1MainOut extends WindowAdapter implements ActionListener 
 	public static JTextArea Output15 = new JTextArea();
 	public static JTextArea Output16 = new JTextArea();
 
-	/*
-	 * public static void main(String[] args) { SubmitMain sm = new SubmitMain();
-	 * sm.startframe(); }
-	 */
+	 
 	public VocabToeic1MainOut() {
 
 		f = new JFrame("First Vocab Insert");

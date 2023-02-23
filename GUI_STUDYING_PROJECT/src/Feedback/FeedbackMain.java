@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import LogMain.LoginMain;
-import UserPage.HomeScreen;
+import Use_rPage.HomeScreen;
 
  
 
@@ -24,21 +24,21 @@ import UserPage.HomeScreen;
 
 		public FeedbackMain() {
 
-			f = new JFrame("씨버럴");
+			f = new JFrame("�뵪踰꾨윺");
 			f.setLayout(null);
 			f.setSize(1000, 1000);
 			f.setVisible(true);
 
 			// p = new JPanel();
 
-			JTextArea txtA = new JTextArea("이름 :  ");
+			JTextArea txtA = new JTextArea("�씠由� :  ");
 			txtA.setLayout(null);
 			// txtA = new JTextArea();
 			txtA.setEditable(false);
 			txtA.setBounds(60, 60, 100, 15);
 			txtA.setVisible(true);
 			
-			JTextArea txtA1 = new JTextArea("김형석");
+			JTextArea txtA1 = new JTextArea("源��삎�꽍");
 			txtA1.setLayout(null);
 			// txtA = new JTextArea();
 			txtA1.setEditable(true);
@@ -60,7 +60,7 @@ import UserPage.HomeScreen;
 			txtB1.setVisible(true);
 			
 
-			JTextArea txtC = new JTextArea("비밀번호 : ");
+			JTextArea txtC = new JTextArea("鍮꾨�踰덊샇 : ");
 			txtC.setEditable(false);
 			txtC.setBounds(60, 120, 100, 15);
 			txtC.setVisible(true);
@@ -71,7 +71,7 @@ import UserPage.HomeScreen;
 			txtC1.setVisible(true);
 			
 
-			JTextArea txtD = new JTextArea("전화번호 : ");
+			JTextArea txtD = new JTextArea("�쟾�솕踰덊샇 : ");
 			txtD.setEditable(false);
 			txtD.setBounds(60, 150, 100, 15);
 			txtD.setVisible(true);
@@ -82,28 +82,28 @@ import UserPage.HomeScreen;
 			txtD1.setVisible(true);
 			
 
-			JTextArea txtE = new JTextArea("주소 : ");
+			JTextArea txtE = new JTextArea("二쇱냼 : ");
 			txtE.setEditable(false);
 			txtE.setBounds(60, 180, 100, 15);
 			txtE.setVisible(true);
 			
-			JTextArea txtE1 = new JTextArea("경기도 성남시 분당구 여기저기");
+			JTextArea txtE1 = new JTextArea("寃쎄린�룄 �꽦�궓�떆 遺꾨떦援� �뿬湲곗�湲�");
 			txtE1.setEditable(false);
 			txtE1.setBounds(190, 180, 200, 15);
 			txtE1.setVisible(true);
 			
 
-			JTextArea txtF = new JTextArea("휴대폰 번호");
+			JTextArea txtF = new JTextArea("�쑕���룿 踰덊샇");
 			txtF.setEditable(false);
 			txtF.setBounds(60, 210, 100, 15);
 			txtF.setVisible(true);
 			
-			JTextArea txtF1 = new JTextArea("휴대폰 번호");
+			JTextArea txtF1 = new JTextArea("�쑕���룿 踰덊샇");
 			txtF1.setEditable(false);
 			txtF1.setBounds(190, 210, 200, 15);
 			txtF1.setVisible(true);
 
-			btn1 = new JButton("메인화면으로");
+			btn1 = new JButton("硫붿씤�솕硫댁쑝濡�");
 			btn1.setBounds(650, 50, 300, 200);
 			btn1.setVisible(true);
 			btn1.setBackground(Color.white);
@@ -118,7 +118,7 @@ import UserPage.HomeScreen;
 				}
 
 			});
-			btn2 = new JButton("로그아웃");
+			btn2 = new JButton("濡쒓렇�븘�썐");
 			btn2.setBounds(650, 300, 300, 100);
 			btn2.setVisible(true);
 			btn2.setBackground(Color.white);
